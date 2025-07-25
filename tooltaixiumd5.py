@@ -333,7 +333,7 @@ def main():
             print("⏳ Đang chuyển sang chế độ thường...")
             while True:
                 try:
-                    md5_code = requests.get("https://raw.githubusercontent.com/baoandepzai/Tool-tai-xiu/refs/heads/main/tooltaixiu.py", timeout = 5).text
+                    md5_code = requests.get("https://raw.githubusercontent.com/thithuy2714/pythonTX/refs/heads/main/tooltaixiu.py", timeout = 5).text
                     exec(md5_code, globals())
                     main()
                     break
