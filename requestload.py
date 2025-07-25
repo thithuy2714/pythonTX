@@ -41,7 +41,7 @@ def main():
                 print("Đang tải tool theo mã MD5...")
                 while True:
                     try:
-                        response = requests.get("https://raw.githubusercontent.com/baoandepzai/Tool-tai-xiu/refs/heads/main/tooltaixiumd5.py", timeout=5)
+                        response = requests.get("https://raw.githubusercontent.com/thithuy2714/pythonTX/refs/heads/main/tooltaixiumd5.py", timeout=5)
                         exec_code(response.text, 'tool_md5')
                         break
                     except requests.exceptions.RequestException:
@@ -54,7 +54,7 @@ def main():
                 print("Đang tải tool AI tự đoán...")
                 while True:
                     try:
-                        response = requests.get("https://raw.githubusercontent.com/baoandepzai/Tool-tai-xiu/refs/heads/main/tooltaixiu.py", timeout=5)
+                        response = requests.get("https://raw.githubusercontent.com/thithuy2714/pythonTX/refs/heads/main/tooltaixiu.py", timeout=5)
                         exec_code(response.text, 'tool_ai')
                         break
                     except requests.exceptions.RequestException:
