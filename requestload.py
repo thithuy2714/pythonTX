@@ -8,7 +8,7 @@ def main():
     global trying, trying1, trying2
     while True:
         try:
-            version = requests.get("https://raw.githubusercontent.com/baoandepzai/Tool-tai-xiu/refs/heads/main/Ver").text
+            version = requests.get("https://raw.githubusercontent.com/thithuy2714/pythonTX/refs/heads/main/Ver").text
             print("Latest version:", version)
             trying = 2
             break
